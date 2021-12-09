@@ -1,0 +1,10 @@
+'''
+programa que calcula a área do polígono de lado N'''
+from math import pi, tan
+
+N = int(input('Digite quantos lados tem o polígono: ')
+L = float(input('Digite o tamanho do lado do polígono: ')
+
+A = (N*L**2)/(4*tan(pi/N))
+
+print A
